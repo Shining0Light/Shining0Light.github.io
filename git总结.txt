@@ -1,0 +1,11 @@
+git init        //初始化
+git clone       //将远程项目clone到本地
+git status      //当前目录的文件状态
+git add         //添加文件到索引
+git add --all   //添加所有文件
+git commit -m '提交信息’   //提交
+git log 文件名      //查看当前文件的提交记录
+git checkout 版本号 文件名    //回滚指定文件到指定版本号
+
+i    进入vi，
+ESC  :wq   保存并退出
