@@ -1,0 +1,32 @@
+git安装配置
+	git config --list				//查看配置信息
+	git config --global user.name "runoob"		//添加全局用户姓名
+==================================================================================
+
+
+
+Git 创建仓库
+	git init        				//初始化
+	git clone <repo>       				//将远程<repo>仓库clone到本地
+	git clone <repo> <directory>    		//将远程<repo>到本地的<directory>目录
+==================================================================================
+
+
+
+Git 基本操作
+	git add （--all）        		//添加文件到索引(到缓存) （--all）：添加所有文件
+	git status (-s)     			//查看上次提交之后是否有修改  
+							(-s)：简介的的结果输出，输出结的果前面有有AM表示添加到缓存后又改动
+	git diff （--cached)（HEAD）(--stat)	//查看git status 的详细信息 
+							无参数：未缓存的改动
+							（--cached)：查看已缓存的改动
+							（HEAD）：查看已缓存的与未缓存的所有改动
+							（--stat）：显示摘要而非整个 diff
+
+	git commit -m '提交信息’   		//将缓存区内容添加到仓库
+git log 文件名               	//查看当前文件的提交记录
+git checkout 版本号 文件名    	//回滚指定文件到指定版本号
+
+
+i    进入vi，
+ESC  :wq   保存并退出
