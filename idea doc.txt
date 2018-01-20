@@ -1,5 +1,0 @@
-快捷键
-	Ctrl + Alt + B 由接口转到实现类
-	Ctrl + Alt + M 将方法中的代码生成额外方法
-启动日志路径(帮助解决idea运行时问题)
-	C:\Users\shanel\.IntelliJIdea2017.2\system\log
