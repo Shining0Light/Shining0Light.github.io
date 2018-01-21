@@ -95,4 +95,4 @@ Git 多远程仓库同步
 
 	git fetch upstream/downstream 			//从远程的上或下游仓库下载新分支与数据到本地
 
-	git merge (upstream/master)/(downstream/master)			//从远程上或下游仓库下载master分支与数据到本地
+	git merge (upstream/master)/(downstream/master)	//从远程上或下游仓库下载master分支与数据到本地
