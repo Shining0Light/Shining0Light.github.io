@@ -4,7 +4,7 @@
  * @author: Shane Liu
  * @date: Created in 17:23 01/22/18
  */
-public class AMethod {
+public class BMethod {
 
     /**
      * Write the summary in here.
@@ -14,7 +14,8 @@ public class AMethod {
      * @param
      */
     public String printSth() {
-        System.out.println("hello world");
+        AMethod a = new AMethod();
+        a.printSth();
         return "hello world";
     }
 }

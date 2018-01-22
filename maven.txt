@@ -1,0 +1,43 @@
+Maven常用命令	
+	mvn -v		  	//查看mvn版本
+	mvn -clean 	  	//删除项目的target文件夹
+	mvn -compile	  	//编译项目
+	mvn -test	  	//运行项目所有test方法，并生成target
+	mvn -package	  	//将项目打包，放在target目录
+	mvn -install	  	//将包安装至本地仓库，以让其它项目依赖
+	mvn archetype:generate  //按照提示进行选择，创建mvn项目的文件夹
+========================================================================================================
+
+
+
+Maven基础知识
+	Maven依赖坐标
+		<groupId>com.immoc.maven01</groupId>		//域名.公司名.项目名
+		<artifactId>maven01-model</artifactId>		//项目名.模块名
+		<version>1.0.0</version>			//版本号
+
+
+	Maven生命周期(三个生命周期相互独立，每个周期里面的阶段时相互依赖的)
+		clean(清理项目)：
+			pre-clean (执行清理前的工作) 
+			clean (清理上一次构建生成的所有文件) 
+			post-clean (执行清理后的工作)
+		default(构建项目,一下列出常用的阶段)
+			compile (编译项目源码)
+			test (运行测试)
+			package (将项目打包，放在target目录)
+			install (将包安装至本地仓库，以让其它项目依赖。)
+		site(生成项目站点)
+			pre-site (执行生成站点文档之前需要完成的工作)
+			site (生成项目的站点文档)
+			post-site (执行生成站点文档之后需要完成的工作，并为部署做准备)
+			site-deploy (将生成的站点文档部署到服务器上)
+		
+
+
+
+
+
+
+
+
