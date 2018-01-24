@@ -1,4 +1,4 @@
-快捷键
+idea快捷键
 	命令
 		Ctrl + Shift + A  	//快捷命令
 	定位
@@ -23,46 +23,21 @@
 		Ctrl + Alt + P		//将代码抽为本方法的参数
 		Ctrl + Alt + C		//将代码抽为静态变量
 		Ctrl + F6		//重构方法签名
+	调试
+		Ctrl + Shift + F8	//显示所有断点
+	文件
+		Ctrl + Alt + U		//关系图表
+		Ctrl + Alt + H		//在哪里被调用
 ========================================================================================================
 
 
 
-	
-========================================================================================================
-启动日志路径(帮助解决idea运行时问题)
-	C:\Users\shanel\.IntelliJIdea2017.2\system\log
+idea常见操作
+	启动日志路径(帮助解决idea运行时问题)
+		C:\Users\shanel\.IntelliJIdea2017.2\system\log
 
 
 
-idea自定义设置模板
-
-	类注释
-/**
- * Write the summary in here.
- *
- * @author: Shane Liu
- * @date: Created in ${TIME} ${DATE}
- */
-
-
-	方法注释
-/**
- * Write the summary in here.
- *
- * @author: Shane Liu
- * @date: $time$ $date$
-$params$
- */
-
-	变量
-		add "public static final String"
-		public static final String $var1$ = $var2$;
-
-		add "private String"
-		private String $var1$ = $var2$;
-		
-		add "private int"
-		private int $var1$ = $var2$;
 
 		
 
