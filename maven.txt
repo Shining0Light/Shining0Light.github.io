@@ -32,9 +32,67 @@ Maven基础知识
 			site (生成项目的站点文档)
 			post-site (执行生成站点文档之后需要完成的工作，并为部署做准备)
 			site-deploy (将生成的站点文档部署到服务器上)
+
+
+
+========================================================================================================
+
+
+
+Maven Pom.xml
+	<project>	//根元素
+		<modelVersion></modelVersion>	//指定当前pom的版本
+		<groupId></groupId>		//项目标识
+		<artifactId></artifactId>	//模块名
+		<version></version>		//0.0.0	大版本号.分支版本号.小版本号  snapshot快照 alpha 内测 beta公测 GA正式发布
+		<type></type>			//
+		<package></version>		//打包方式：jar(默认) zip pom
+		<name></name>			//项目描述名
+		<url></url>			//项目地址
+		<description></description>	//项目描述
+		<developers></developers>	//开发人员列表
 		
+ 		<modules>					//聚合mvndemo1，mvndemo2，mvndemo3
+        		<module>../mvndemo1</module>
+        		<module>../mvndemo2</module>
+        		<module>../mvndemo3</module>
+   		 </modules>
+
+		<dependencies>	//依赖列表
+			<dependency>	//依赖
+				<groupId></groupId>		//项目标识
+				<artifactId></artifactId>	//模块名
+				<type></type>
+				<scope></scop>			//依赖作用范围,常用的是compile(默认，所有范围), provided(编译和测试), runtime(测试和运行),test(测试),system(编译和测试，可移植性差),import(导入范围),
+				<optional></optional>		//设置依赖是否可选
+				
+				<exclusions>			//排除依赖
+					<exclusion>
+					
+					</exclusion>
+				</excusions>
+			</dependency>
+		</dependencies>	
+
+		<dependencyManagement>
+			<dependencies>
+				
+			</dependencies>
+		</dependencyManagement>
 
 
+		<build>
+			<plugins>
+				<plugin>
+				</plugin>
+			</plugins>
+		</build>
+		
+		<parent>
+		</parent>
+
+		<modules>
+		</modules>
 
 
 
