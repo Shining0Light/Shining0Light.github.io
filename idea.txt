@@ -1,5 +1,69 @@
 快捷键
-	Ctrl + Alt + B 由接口转到实现类
-	Ctrl + Alt + M 将方法中的代码生成额外方法
+	命令
+		Ctrl + Shift + A  	//快捷命令
+	定位
+		Ctrl + Alt + [ 		//跳转到上一个工程
+		Ctrl + Alt + ] 		//跳转到下一个工程
+		Ctrl + Alt + <-		//跳转到上一浏览的地方
+		Ctrl + Alt + ->		//跳转到下一浏览的地方
+		Ctrl + E		//打开最近打开文件
+		Ctrl + Shift + E	//打开最近修改过的文件
+		Ctrl + 特定键		//调到特定的标记地方
+		F11			//打标记
+		Ctrl + F11		//打标记并加上番号
+		Ctrl + Shift + F	//find in path
+		Ctrl +  R		//替换
+		Ctrl + Alt + B 		//由接口转到实现类
+	代码助手
+		expre.for		//添加add循环
+	重构
+		Ctrl + Alt + M 		//将代码抽为类方法
+		Ctrl + Alt + V		//将代码抽为局部变量
+		Ctrl + Alt + F		//将代码抽为成员变量
+		Ctrl + Alt + P		//将代码抽为本方法的参数
+		Ctrl + Alt + C		//将代码抽为静态变量
+		Ctrl + F6		//重构方法签名
+========================================================================================================
+
+
+
+	
+========================================================================================================
 启动日志路径(帮助解决idea运行时问题)
 	C:\Users\shanel\.IntelliJIdea2017.2\system\log
+
+
+
+idea自定义设置模板
+
+	类注释
+/**
+ * Write the summary in here.
+ *
+ * @author: Shane Liu
+ * @date: Created in ${TIME} ${DATE}
+ */
+
+
+	方法注释
+/**
+ * Write the summary in here.
+ *
+ * @author: Shane Liu
+ * @date: $time$ $date$
+$params$
+ */
+
+	变量
+		add "public static final String"
+		public static final String $var1$ = $var2$;
+
+		add "private String"
+		private String $var1$ = $var2$;
+		
+		add "private int"
+		private int $var1$ = $var2$;
+
+		
+
+
