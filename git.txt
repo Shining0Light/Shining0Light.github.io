@@ -87,8 +87,9 @@ Git 远程仓库
 
 	git remote rm [repo]				//删除名字为repo的远程仓库
 
+	git (pull/push) [origin] branch			//本地分支(上传到/下载)origin的branch分支
 
-
+	git push--set-upstream origin branch		//将本地分支与远程branch分支关联并提交
 ========================================================================================================
 Git 多远程仓库同步
 	git remote add upstream/downstream <repo>	//给远程仓库添加上/下游仓库

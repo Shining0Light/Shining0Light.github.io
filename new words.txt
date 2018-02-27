@@ -9,3 +9,5 @@ maintenance 维修
 Deliver 提供
 Agenda 议程
 via 通过
+discount折扣
+Warranty保单
