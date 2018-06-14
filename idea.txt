@@ -35,6 +35,8 @@ idea快捷键
 idea常见操作
 	启动日志路径(帮助解决idea运行时问题)
 		C:\Users\shanel\.IntelliJIdea2017.2\system\log
+	idea自带帮助
+		F1
 
 
 
