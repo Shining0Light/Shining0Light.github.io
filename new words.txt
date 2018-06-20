@@ -12,3 +12,4 @@ via 通过
 discount折扣
 Warranty保单
 establishe建立
+integrate 集成
