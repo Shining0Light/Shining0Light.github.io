@@ -14,3 +14,5 @@ Warranty保单
 establishe建立
 integrate 集成
 maintenance 维修
+navigate 导航
+profile简介
