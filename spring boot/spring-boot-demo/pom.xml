@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.shininglight.assistant</groupId>
-	<artifactId>aa-server</artifactId>
+	<groupId>com.shininglight.demo</groupId>
+	<artifactId>spring-boot</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>aa-server</name>
-	<description>The server of aa</description>
+	<name>spring boot demo</name>
+	<description>Spring boot project based on CS architecture</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
